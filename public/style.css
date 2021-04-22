@@ -1,23 +1,29 @@
 body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	color: #222;
-	background-color: #FaFaFa;
-	text-align: center;
-	line-height: 1.4em;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #222;
+  background-color: #fafafa;
+  /* text-align: center; */
+  line-height: 1.4em;
 }
 
 .container {
-	padding: 0;
-	margin-top: 40px;
+  padding: 0;
+  margin-top: 40px;
+  text-align: center;
 }
 
 h3 {
   margin-top: 30px;
 }
 
+h2 {
+  text-align: center;
+}
+
 .footer {
-	margin-top: 40px;
+  margin-top: 40px;
+  text-align: center;
 }
 
 code {
@@ -28,5 +34,12 @@ code {
 }
 
 a {
-	color: #2574A9;
+  color: #2574a9;
+}
+
+.note {
+  justify-content: right;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }
